@@ -15,5 +15,4 @@ public class Receiver {
     public CountDownLatch getLatch() {
         return latch;
     }
-
 }

@@ -1,10 +1,10 @@
-package com.example.restservice.com.example.restservice.genre;
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
-import javax.persistence.Column;
+package com.example.restservice.company;
+
+import javax.persistence.*;
+
 @Entity
-public class Genre {
+@Table(name = "compnies")
+public class Company {
     @Id
     @GeneratedValue
     @Column(name = "Id", nullable = false)

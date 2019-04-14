@@ -1,5 +1,5 @@
-insert into Genre
-values(10001,'fantasy');
+insert into companies
+values(10001,'apple');
 
-insert into genre
-values(10002,'horror');
+insert into companies
+values(10002,'samsung');
